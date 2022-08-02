@@ -1,0 +1,64 @@
+
+ /* =========================================
+  MEDIA QUERIES
+  ===========================================*/
+@media screen and (min-width: 768px) {
+
+    /* Navigation */
+
+    .nav-wrapper{
+        flex-direction: row;
+     
+    }
+    .navList{
+        justify-content: flex-end;
+        flex-direction: row;
+      
+    
+    }
+
+    /* Mision-vision area */
+    
+    
+
+    /* footer */
+
+    .foot{
+      flex-direction: row;
+    }
+
+    .first, .second, .third,.fourth{
+        width: 25%;
+  
+    
+     }
+
+
+     .contact-section{
+      flex-direction: row;
+  }
+
+
+
+  .about{
+    flex-direction: row;
+  }
+
+  .about > div
+{
+    width: 50%;
+
+}
+
+.counter-inner-wrap{
+  flex-direction: row;
+}
+ 
+    
+}
+
+
+ /* =========================================
+  MISSION-VISION HOME 
+  ===========================================*/
+

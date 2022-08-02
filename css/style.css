@@ -1,0 +1,534 @@
+/* =========================================
+  COLOR VARIABLES
+  ===========================================*/
+
+
+ 
+ /* =========================================
+  FONTS 
+  ===========================================*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Montserrat&display=swap');
+
+
+ /* =========================================
+  GENERAL STYLES 
+  ===========================================*/
+  
+  *{
+    box-sizing: border-box;
+}
+ul{
+    padding-left: 0;
+
+}
+
+button{
+    border: none;
+}
+
+.intro{
+    background-color: #0a64ad;
+    padding: 5px;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+.inner-intro{
+    display: flex;
+    align-items: center;
+
+}
+
+.call-us{
+    margin-right: auto;
+}
+
+.top-social-icons{
+    display: flex;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.top-social-icons li{
+    margin: 0 5px;
+}
+
+.top-social-icons .fab{
+    color: #fff;
+
+}
+
+.single-recent{
+    margin-top: 20px;
+}
+
+
+.intro .fab{
+    font-size: 16px;
+
+}
+
+.intro a{
+    vertical-align: middle;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+body{
+    margin: 0;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+img{
+    max-width:100% !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:visited{
+    color: #000;
+}
+
+.btn{
+    color: #fff !important;
+    font-weight: 700;
+}
+
+.nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+.nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background-color: green; */
+    padding: 5px;
+}
+.navList{
+    display: flex;
+    /* justify-content: flex-end; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    /* background-color: yellow; */
+    align-items: center;
+
+}
+
+
+
+.navList li{
+    list-style: none;
+    text-transform: uppercase;
+    margin:5px;
+
+}
+
+
+#logo{
+    width: 100px;
+}
+
+
+
+.banner, .counter{
+    background: rgb(15, 230, 147);
+    color:white;
+    padding-top:100px;
+    padding-bottom: 100px;
+    text-align:center;
+    margin-bottom: 50px;
+}
+
+.vision-area{
+    display: flex;
+    margin:5px;
+    align-items: center;
+  /* justify-content: center; */
+}
+
+.counter{
+    margin-top: 50px;
+}
+
+.about{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+
+.about > div
+{
+    width: 100%;
+    margin: 15px;
+
+}
+
+
+
+ /* =========================================
+  BLOG AREA 
+  ===========================================*/
+
+.blog-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:20px;
+
+}
+
+.single-post{
+    background-color: #f2f2f2;
+
+}
+
+
+ /* =========================================
+  FONTAWESOME 
+  ===========================================*/
+
+.about .fas{
+    font-size: 40px;
+    color: rgb(15, 230, 147);
+    background: rgb(179, 17, 219);
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 5%;
+}
+
+.footer .fas{
+    color: rgb(15, 230, 147); 
+
+}
+
+.fab{
+    font-size: 30px;
+    color: rgb(15, 230, 147);
+    padding-top:20px;
+ 
+}
+
+
+.counter .fab{
+    color: #fff;
+    font-size: 40px;
+}
+
+.counter-inner-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.count > *{
+    margin: 10px;
+}
+
+.counting{
+    font-size: 40px;
+    color: #fff;
+}
+
+ /* =========================================
+  BLOG AREA 
+  ===========================================*/
+.recent-posts,.clients{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 40px;
+    /* text-align: center; */
+}
+
+.recent-posts-title{
+    padding-bottom: 20px;
+}
+
+ /* =========================================
+  FOOTER STYLES 
+  ===========================================*/
+
+.footer{
+    background:rgb(179, 17, 219) ;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.footer ul li a{
+    color: #fff;
+}
+
+.footer ul li{
+    margin: 5px;
+}
+
+.foot{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    padding-top:50px;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-logo{
+    width: 100px;
+    /* margin-bottom: 20px; */
+}
+
+.footer-social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.first, .second, .third,.fourth{
+    width: 80%;
+    /* padding-left: 1em;
+    padding-right: 1em; */
+    margin-bottom: 20px;
+
+ }
+
+ .copyright{
+     background-color: #0a64ad;
+     color: #fff;
+     padding: 10px 0 10px 0;
+     text-align: center;
+     font-size: small;
+ }
+
+
+ /* CONTACT PAGE */
+
+ .contact-section{
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+     width: 90%;
+ }
+
+
+ .contact-form,
+ .contact-details{
+    width: 100%;
+ }
+
+
+
+ .phone, .email, .address, .zoom, .skype{
+     display: flex;
+     align-items: center;
+     padding-bottom: 20px;
+ }
+
+
+ .contact-details .fas,
+ .contact-details .fab{
+    font-size: 50px;
+    color: rgb(15, 230, 147);
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 5%;
+
+ }
+
+ /* =========================================
+  ALL FORMS 
+  ===========================================*/
+
+ button[type="submit"]{
+    background: rgb(15, 230, 147);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 40%;
+
+ }
+
+ input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[type="phone"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    background: #f2f2f2;
+ }
+
+ textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    background: #f2f2f2;
+ }
+
+
+ .btn-info:focus, .btn-info:active, .btn-info:hover{
+    outline: none  !important;
+    box-shadow: none;
+ }
+
+ 
+
+
+ /* =========================================
+  accordion area styles 
+  ===========================================*/
+
+ .accordion-area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ .company-img{
+     max-width:100%;
+     max-height:100%;
+  
+ }
+
+
+ .image-area{
+     position: relative;
+     overflow: hidden;
+     line-height: 0;
+ }
+
+
+ .img-overlay{
+  
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right:0;
+    bottom:0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0,0,0,0.5);
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: .5s;
+    /* transition-delay: .5s; */
+    
+ }
+
+ .image-area:hover .img-overlay{
+    opacity: 1;
+    cursor: pointer;
+    
+    
+ }
+
+ .company-img{
+     transform-origin: 0 0;
+     transition-property: transform;
+     transition-duration: .4s;
+ }
+
+ .image-area:hover .company-img{
+     transform: scale(1.5);
+ }
+
+ /* accordion */
+
+ .accordion-button{
+    background: rgb(15, 230, 147);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* margin-top: 20px; */
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+ }
+
+
+/* GALLERY */
+
+.our-gallery{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-body{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+
+.gallery-filter{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-filter li{
+    margin: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* ALIGNMENT: GENERAL */
+
+.align-center{
+    text-align: center;
+}
+
+
+/*=====================
+ABOUT PAGE
+=====================*/
+
+.goals{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-mission, .about-vision{
+    border-right: 4px solid green;
+    margin:20px;
+}
